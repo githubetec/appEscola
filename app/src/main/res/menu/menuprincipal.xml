@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Cadastros"
+        android:id="@+id/mniCadastrar">
+        <menu>
+            <item android:id="@+id/mniAlunos"
+                android:title="Cadastro de Alunos">
+            </item>
+            <item android:id="@+id/mniProfessor"
+                android:title="Cadastro de Professores">
+            </item>
+        </menu>
+    </item>
+    <item android:title="Relatórios"
+        android:id="@+id/mniRelatorios">
+        <menu>
+            <item android:id="@+id/mniRAlunos"
+                android:title="Relatório de Aluno">
+            </item>
+            <item android:id="@+id/mniRProfessor"
+                android:title="Relatorio de Professor">
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/mniSair"
+        android:title="Encerrar App">
+    </item>
+</menu>
